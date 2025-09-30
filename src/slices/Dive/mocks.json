@@ -1,0 +1,19 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"sectence": {
+				"__TYPE__": "FieldContent",
+				"value": "grain",
+				"type": "Text"
+			},
+			"flavor": {
+				"__TYPE__": "FieldContent",
+				"value": "blackCherry",
+				"type": "Select"
+			}
+		},
+		"items": []
+	}
+]

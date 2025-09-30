@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffdf20;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-alpino: var(--font-alpino);
+}
+
+.alpino {
+  font-family: var(--font-alpino), sans-serif;
+}
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-alpino), sans-serif;
+}
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
+}

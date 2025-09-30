@@ -1,0 +1,18 @@
+{
+  "id": "bigtext",
+  "type": "SharedSlice",
+  "name": "Bigtext",
+  "description": "Bigtext",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {}
+    }
+  ]
+}
