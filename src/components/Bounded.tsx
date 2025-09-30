@@ -17,12 +17,12 @@ export function Bounded<T extends React.ElementType = "div">({
 }: BoundedProps<T>) {
   const Comp = as || "div";
 
-  return (
-    <Comp
-      className={clsx("px-4 md:px-6 first:pt-10", className)}
-      {...(restProps as React.ComponentPropsWithoutRef<T>)}
-    >
-      {children}
-    </Comp>
+  return React.createElement(
+    Comp,
+    {
+      className: clsx("px-4 md:px-6 first:pt-10", className),
+      ...restProps,
+    },
+    children
   );
 }
