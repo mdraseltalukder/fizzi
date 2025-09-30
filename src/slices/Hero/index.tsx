@@ -132,6 +132,10 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
             </div>
             <Button
               buttonText={slice.primary.button_text}
+              buttonLink={{
+                link_type: "Web",
+                url: "#",
+              }}
               className="mt-12 hero-button"
             />
           </div>
